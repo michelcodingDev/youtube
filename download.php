@@ -32,6 +32,7 @@ function baixarMp3($videoUrl) {
         
             if (isset($data['dlink'])) {
                 // Exibir o link de download
+               
                 echo "Link para download do MP3: <a href='{$data['dlink']}'>Baixar MP3</a>";
             } else {
                 echo "Erro: Não foi possível obter o link do MP3.";
