@@ -1,0 +1,9 @@
+[build]
+command = "composer install && composer update && npm run build"
+publish = "public"
+
+[[plugins]]
+package = "netlify-plugin-composer"
+
+[build.environment]
+PHP_VERSION = "8.1"
