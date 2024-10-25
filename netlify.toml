@@ -1,5 +1,5 @@
 [build]
-command = "curl -sS https://getcomposer.org/installer | php && php composer.phar install && php composer.phar update && npm run build"
+command = "curl -sS https://getcomposer.org/installer | php && php composer.phar install && php composer.phar update"
 publish = "public"
 
 [build.environment]
