@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+input{
+    padding: 20px;
+    width: 100%;
+}
+
+input[type=submit]{
+    margin-top:10px;
+    background: green;
+    color:#fff;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer{
+    background: #000;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    bottom: 0;
+    color:#fff;
+    clear: both;
+}
