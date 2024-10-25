@@ -28,7 +28,7 @@
 
                     // Função para validar se a URL fornecida é um link do YouTube
                     function validarUrlYoutube($url) {
-                        return preg_match('/^https:\/\/(www\.)?youtube\.com\/watch\?v=[\w-]+/', $url);
+                        return preg_match('/^https:\/\/(www\.)?(youtube\.com\/watch\?v=|youtu\.be\/)[\w-]+/', $url);
                     }
 
                     function baixarMp3($videoUrl) {
